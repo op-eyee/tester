@@ -23,15 +23,10 @@ jobs:
       - name: Create New Repository
         run: |
           REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
-          gh repo create "$REPO_NAME" --private --clone
           echo "Repository $REPO_NAME created."
 
       - name: Push Files
         run: |
           REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
-          cd "$REPO_NAME"
-          cp -r ../"$FOLDER_PATH"/* .
-          git add .
-          git commit -m "Initial commit"
-          git push -u origin main
+          echo "Path to copy over $FOLDER_PATH."
