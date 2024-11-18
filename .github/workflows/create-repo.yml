@@ -3,14 +3,13 @@ name: Create and Populate Repo
 on:
   workflow_dispatch:
     inputs:
-      repo-name:
-        description: 'Name of the new repository (base name)'
-        required: true
-        default: 'new-repo'
       folder-path:
         description: 'Path to the folder to copy over'
         required: true
         default: './'
+      candidate:
+        description: 'Candidate''s username to invite'
+        required: true
 
 jobs:
   create-repo:
@@ -19,6 +18,14 @@ jobs:
     steps:
       - name: Authenticate GitHub CLI
         run: gh auth login --with-token <<< "${{ secrets.GH_PAT }}"
+      
+      - name: Generate Repository Name
+        id: generate-name
+        run: |
+          GENERATED_NAME="test-${{ github.event.inputs.candidate }}"
+          echo "User provided repo name: $GENERATED_NAME"
+          echo "::set-output name=repo-name::$GENERATED_NAME"
+          
 
       - name: Create New Repository
         run: |
@@ -29,4 +36,9 @@ jobs:
         run: |
           REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
-          echo "Path to copy over $FOLDER_PATH."
+          echo "Path to copy over: $FOLDER_PATH."
+
+      - name: Invite collaborator
+        run: |
+          CANDIDATE="${{ github.event.inputs.candidate }}"
+          echo "Candidate to invite: $CANDIDATE."
