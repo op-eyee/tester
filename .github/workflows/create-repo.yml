@@ -72,7 +72,8 @@ jobs:
           git add .
           git commit -m "Initial commit"
           git branch -M main
-          git push -u origin main
+          gh repo set-default "$REPO_NAME"
+          gh repo sync --force
 
       - name: Invite collaborator
         run: |
