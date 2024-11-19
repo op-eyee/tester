@@ -24,7 +24,7 @@ jobs:
 
       - name: Authenticate GitHub CLI
         run: gh auth login --with-token <<< "${{ secrets.GH_PAT }}"
-      
+
       - name: Generate Repository Name
         id: generate-name
         run: |
@@ -38,6 +38,11 @@ jobs:
           gh repo create "$REPO_NAME" --private --clone --disable-issues --disable-wiki
           echo "Repository $REPO_NAME created."
       
+      - name: Switch to New Repository
+        run: |
+          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
+          cd "$REPO_NAME"
+
       - name: Configure Git Identity
         run: |
           git config --global user.name "${{ github.repository_owner }}"
