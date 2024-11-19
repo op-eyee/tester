@@ -28,7 +28,6 @@ jobs:
           GENERATED_NAME="test-${{ github.event.inputs.candidate }}"
           echo "User provided repo name: $GENERATED_NAME"
           echo "::set-output name=repo-name::$GENERATED_NAME"
-          
 
       - name: Create New Repository
         run: |
@@ -51,10 +50,13 @@ jobs:
             exit 1
           fi
           cd "$REPO_NAME"
+          if [ "$(git branch --show-current)" != "main" ]; then
+            git checkout -b main
+          fi
           mkdir -p ./"$FOLDER_PATH"
           cp -r ../"$FOLDER_PATH"/* ./"$FOLDER_PATH"/
           cp ../README.md . || echo "README.md not found, skipping"
-          ls -la ../.github/workflows
+          mkdir -p .github/workflows
           cp ../.github/workflows/main.yml .github/workflows/main.yml || echo "Workflow main.yml not found, skipping"
           cp ../.github/workflows/no-changes.txt .github/workflows/no-changes.txt || echo "Workflow no-changes.txt not found, skipping"
           git add .
