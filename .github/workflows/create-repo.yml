@@ -7,7 +7,7 @@ on:
         description: 'Candidate''s username to invite'
         required: true
       folder-path:
-        description: 'Path to the folder to copy over'
+        description: 'Path to the folder to copy over (v1/v2/v3)'
         required: true
         default: 'v1'
 
@@ -37,20 +37,11 @@ jobs:
           REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           gh repo create "$REPO_NAME" --private --clone --disable-issues --disable-wiki
           echo "Repository $REPO_NAME created."
-      
-      - name: Switch to New Repository
-        run: |
-          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
-          cd "$REPO_NAME"
 
       - name: Configure Git Identity
         run: |
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
-
-      - name: Set up Authentication
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }}.git
 
       - name: Push Files
         run: |
@@ -72,7 +63,7 @@ jobs:
           git add .
           git commit -m "Initial commit"
           git branch -M main
-          gh repo set-default --view
+          gh repo set-default ${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }}
           gh repo sync --force
 
       - name: Invite collaborator
