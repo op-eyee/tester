@@ -50,9 +50,6 @@ jobs:
             exit 1
           fi
           cd "$REPO_NAME"
-          if [ "$(git branch --show-current)" != "main" ]; then
-            git checkout -b main
-          fi
           mkdir -p ./"$FOLDER_PATH"
           cp -r ../"$FOLDER_PATH"/* ./"$FOLDER_PATH"/
           cp ../README.md . || echo "README.md not found, skipping"
@@ -61,6 +58,7 @@ jobs:
           cp ../.github/workflows/no-changes.txt .github/workflows/no-changes.txt || echo "Workflow no-changes.txt not found, skipping"
           git add .
           git commit -m "Initial commit"
+          git branch -M main
           git push -u origin main
 
       - name: Invite collaborator
