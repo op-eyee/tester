@@ -52,6 +52,9 @@ jobs:
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
           echo "Path to copy over: $FOLDER_PATH."
           cd "$REPO_NAME"
+          ls -la ..
+          echo "Checking if v3 exists:"
+          ls -la ../v3
           if [ -d "../$FOLDER_PATH" ] && [ "$(ls -A ../$FOLDER_PATH)" ]; then
             mkdir -p ./"$FOLDER_PATH"
             cp -r ../"$FOLDER_PATH"/* ./"$FOLDER_PATH"/
