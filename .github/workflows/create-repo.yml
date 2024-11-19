@@ -45,10 +45,12 @@ jobs:
 
       - name: Set up Authentication
         run: |
+          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/"$REPO_NAME".git
 
       - name: Push Files
         run: |
+          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
           echo "Path to copy over: $FOLDER_PATH."
           cd "$REPO_NAME"
