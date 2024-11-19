@@ -72,7 +72,7 @@ jobs:
           git add .
           git commit -m "Initial commit"
           git branch -M main
-          gh repo set-default "$REPO_NAME"
+          gh repo set-default --view
           gh repo sync --force
 
       - name: Invite collaborator
