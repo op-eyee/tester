@@ -45,8 +45,7 @@ jobs:
 
       - name: Set up Authentication
         run: |
-          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/"$REPO_NAME".git
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }}.git
 
       - name: Push Files
         run: |
@@ -54,9 +53,6 @@ jobs:
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
           echo "Path to copy over: $FOLDER_PATH."
           cd "$REPO_NAME"
-          ls -la ..
-          echo "Checking if v3 exists:"
-          ls -la ../v3
           if [ -d "../$FOLDER_PATH" ] && [ "$(ls -A ../$FOLDER_PATH)" ]; then
             mkdir -p ./"$FOLDER_PATH"
             cp -r ../"$FOLDER_PATH"/* ./"$FOLDER_PATH"/
