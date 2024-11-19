@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout Current Repository
+        uses: actions/checkout@v4
+
       - name: Authenticate GitHub CLI
         run: gh auth login --with-token <<< "${{ secrets.GH_PAT }}"
       
@@ -37,6 +40,13 @@ jobs:
           REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
           FOLDER_PATH="${{ github.event.inputs.folder-path }}"
           echo "Path to copy over: $FOLDER_PATH."
+          echo "Current Directory: $PWD"
+          ls -la $PWD
+          cd "$REPO_NAME"
+          echo "Current Directory: $PWD"
+          ls -la $PWD
+          echo "Workflow Directory: $GITHUB_WORKSPACE"
+          ls -la $GITHUB_WORKSPACE
 
       - name: Invite collaborator
         run: |
