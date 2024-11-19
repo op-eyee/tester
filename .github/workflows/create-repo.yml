@@ -51,6 +51,7 @@ jobs:
             exit 1
           fi
           cd "$REPO_NAME"
+          mkdir -p ./"$FOLDER_PATH"
           cp -r ../"$FOLDER_PATH"/* ./"$FOLDER_PATH"/
           cp ../README.md . || echo "README.md not found, skipping"
           ls -la ../.github/workflows
