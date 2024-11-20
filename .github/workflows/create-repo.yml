@@ -6,10 +6,11 @@ on:
       candidate:
         description: 'Candidate''s username to invite'
         required: true
+        default: 'edwinyeehl'
       folder-path:
         description: 'Path to the folder to copy over (v1/v2/v3)'
         required: true
-        default: 'v1'
+        default: 'v3'
 
 permissions:
   contents: write
@@ -33,10 +34,14 @@ jobs:
           echo "::set-output name=repo-name::$GENERATED_NAME"
 
       - name: Create New Repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
         run: |
-          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
-          gh repo create "$REPO_NAME" --private --clone --disable-issues --disable-wiki
-          echo "Repository $REPO_NAME created."
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
+          -d "{\"name\":\"$REPO_NAME\",\"private\":true}" \
+          https://api.github.com/user/repos
+
 
       - name: Configure Git Identity
         run: |
@@ -44,10 +49,13 @@ jobs:
           git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
 
       - name: Push Files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
+          FOLDER_PATH: ${{ github.event.inputs.folder-path }}
         run: |
-          REPO_NAME="${{ steps.generate-name.outputs.repo-name }}"
-          FOLDER_PATH="${{ github.event.inputs.folder-path }}"
           echo "Path to copy over: $FOLDER_PATH."
+          git clone https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository_owner }}/$REPO_NAME.git
           cd "$REPO_NAME"
           if [ -d "../$FOLDER_PATH" ] && [ "$(ls -A ../$FOLDER_PATH)" ]; then
             mkdir -p ./"$FOLDER_PATH"
@@ -63,8 +71,7 @@ jobs:
           git add .
           git commit -m "Initial commit"
           git branch -M main
-          git remote -v
-          gh repo sync --source=${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }} --force
+          git push origin main
 
       - name: Invite collaborator
         run: |
