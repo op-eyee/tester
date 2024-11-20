@@ -23,11 +23,6 @@ jobs:
       - name: Checkout Current Repository
         uses: actions/checkout@v4
 
-      - name: Authenticate GitHub CLI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        run: gh auth login --with-token <<< "$GITHUB_TOKEN"
-
       - name: Generate Repository Name
         id: generate-name
         env:
