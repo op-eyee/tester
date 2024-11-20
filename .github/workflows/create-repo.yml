@@ -6,11 +6,10 @@ on:
       candidate:
         description: 'Candidate''s username to invite'
         required: true
-        default: 'edwinyeehl'
       folder-path:
         description: 'Path to the folder to copy over (v1/v2/v3)'
         required: true
-        default: 'v3'
+        default: 'v1'
 
 permissions:
   contents: write
@@ -34,7 +33,7 @@ jobs:
 
       - name: Create New Repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
         run: |
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
@@ -51,7 +50,7 @@ jobs:
 
       - name: Push Files
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
           FOLDER_PATH: ${{ github.event.inputs.folder-path }}
           REPO_OWNER: ${{ github.repository_owner }}
@@ -77,7 +76,7 @@ jobs:
 
       - name: Invite collaborator
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
           CANDIDATE: ${{ github.event.inputs.candidate }}
           REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
           REPO_OWNER: ${{ github.repository_owner }}
