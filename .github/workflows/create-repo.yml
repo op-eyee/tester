@@ -28,7 +28,7 @@ jobs:
       - name: Generate Repository Name
         id: generate-name
         run: |
-          GENERATED_NAME="test-${{ github.event.inputs.candidate }}"
+          GENERATED_NAME="test-${{ github.event.inputs.candidate }}-$(date +%s)"
           echo "User provided repo name: $GENERATED_NAME"
           echo "::set-output name=repo-name::$GENERATED_NAME"
 
@@ -64,8 +64,7 @@ jobs:
           git commit -m "Initial commit"
           git branch -M main
           git remote -v
-          gh repo set-default ${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }}
-          gh repo sync main --source=main --force
+          gh repo sync --source=${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }} --force
 
       - name: Invite collaborator
         run: |
