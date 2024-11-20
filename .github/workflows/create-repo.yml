@@ -24,12 +24,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Authenticate GitHub CLI
-        run: gh auth login --with-token <<< "${{ secrets.GH_PAT }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: gh auth login --with-token <<< "$GITHUB_TOKEN"
 
       - name: Generate Repository Name
         id: generate-name
+        env:
+          CANDIDATE: ${{ github.event.inputs.candidate }}
         run: |
-          GENERATED_NAME="test-${{ github.event.inputs.candidate }}-$(date +%s)"
+          GENERATED_NAME="test-$CANDIDATE-$(date +%s)"
           echo "User provided repo name: $GENERATED_NAME"
           echo "::set-output name=repo-name::$GENERATED_NAME"
 
@@ -44,18 +48,21 @@ jobs:
 
 
       - name: Configure Git Identity
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
         run: |
-          git config --global user.name "${{ github.repository_owner }}"
-          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
+          git config --global user.name "$REPO_OWNER"
+          git config --global user.email "$REPO_OWNER@users.noreply.github.com"
 
       - name: Push Files
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
           FOLDER_PATH: ${{ github.event.inputs.folder-path }}
+          REPO_OWNER: ${{ github.repository_owner }}
         run: |
           echo "Path to copy over: $FOLDER_PATH."
-          git clone https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository_owner }}/$REPO_NAME.git
+          git clone https://x-access-token:$GITHUB_TOKEN@github.com/$REPO_OWNER/$REPO_NAME.git
           cd "$REPO_NAME"
           if [ -d "../$FOLDER_PATH" ] && [ "$(ls -A ../$FOLDER_PATH)" ]; then
             mkdir -p ./"$FOLDER_PATH"
@@ -74,6 +81,15 @@ jobs:
           git push origin main
 
       - name: Invite collaborator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          CANDIDATE: ${{ github.event.inputs.candidate }}
+          REPO_NAME: ${{ steps.generate-name.outputs.repo-name }}
+          REPO_OWNER: ${{ github.repository_owner }}
         run: |
-          CANDIDATE="${{ github.event.inputs.candidate }}"
           echo "Candidate to invite: $CANDIDATE."
+          curl -L \
+          -X PUT \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          https://api.github.com/repos/$REPO_OWNER/$REPO_NAME/collaborators/$CANDIDATE
