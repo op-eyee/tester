@@ -63,8 +63,9 @@ jobs:
           git add .
           git commit -m "Initial commit"
           git branch -M main
+          git remote -v
           gh repo set-default ${{ github.repository_owner }}/${{ steps.generate-name.outputs.repo-name }}
-          gh repo sync --force
+          gh repo sync main --source=main --force
 
       - name: Invite collaborator
         run: |
