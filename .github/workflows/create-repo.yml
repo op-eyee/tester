@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       candidate:
-        description: 'Candidate''s username to invite'
+        description: 'Candidate''s GitHub username to invite'
         required: true
       folder-path:
         description: 'Path to the folder to copy over (v1/v2/v3)'
