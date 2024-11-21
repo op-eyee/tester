@@ -2291,3 +2291,154 @@ hardening Sprint.
 - [ ] The project manager cannot effectively update the plan.
 - [ ] Final sign-off before an increment can be shipped or deployed will be delayed.
 - [ ] Independent test of the increment will be lost.
+
+### If another Scrum Team is added for developing the same product, what will be the immediate impact on the productivity of the original Scrum Team? (Choose the best option)
+
+- [x] Productivity is likely to decrease.
+- [ ] Productivity is likely to increase.
+- [ ] Productivity is likely to stay the same.
+- [ ] Productivity can’t be predicted.
+
+### When can Developers cancel a Sprint? (choose the best option)
+
+- [ ] When the selected Product Backlog items for the Sprint become unachievable.
+- [ ] When the Product Owner is absent too often.
+- [ ] When the functional requirements are not well understood.
+- [ ] When the technical dependency cannot be resolved. 
+- [x] They can't. Only Product Owner can cancel Sprints.
+
+### Which of the following two best describes a ready product backlog item? (Choose the best two options) 
+
+- [ ] It is a complete user story with all the necessary components.
+- [x] It is well understood by the developers and product owner at the sprint planning.
+- [ ] It has been changed from unready to ready status in the tracking tool.
+- [ ] It has been fully described in the user requirements analysis.
+- [x] It can most likely be done within one sprint.
+
+### Which three purposes does the definition of "Done" serve? (Choose the best three answers.)
+
+- [x] Guide the Developers on how many Product Backlog items to select for the Sprint.
+- [x] Create a shared understanding of when work is complete.
+- [ ] Describe the purpose, objective, and time-box of each Scrum event.
+- [ ] Describe the work that must be done before the Sprint is allowed to end.
+- [x] Increase transparency.
+- [ ] The Definition of Done describes the future state of the product.
+
+### What are the duties of the Developers in a Scrum Team? (choose the best two options)
+
+- [ ] Removing impediments.
+- [x] Making technical decisions.
+- [x] Resolving team internal conflicts.
+- [ ] Assigning value to the Product Backlog Items.
+
+### Which statement best describes a sprint backlog? (choose the best three options)
+
+- [ ] List of all tasks estimated in hours.
+- [ ] It is an ordered list of product backlog items by the Developers.
+- [x] It is a set of Product Backlog items selected for the Sprint.
+- [ ] It is a list of items & the designated owner of those items.
+- [x] It is the Developers' actionable plan for delivering the Increment.
+- [x] It explains why they are building the increment.
+
+### The Developers cannot complete their work by the end of a sprint. What is the best option they should consider? (choose the best option)
+
+- [ ] Sprint should be abandoned.
+- [x] The time box holds, and the Developers continuously learn what is possible to do within a time box.
+- [ ] The time box is adjusted to reflect reality.
+- [ ] The time box is extended temporarily. Lessons are taken to ensure it doesn't happen again.
+
+### Who is responsible for estimating and registering the work estimates during a Sprint? (choose the best option)
+
+- [ ] The Product Owner with input from the Developers.
+- [ ] The Developers as per the direction of the Product Owner and Scrum Master.
+- [x] The Developers after clarifying requirements with the Product Owner.
+- [ ] The Scrum Master.
+- [ ] The most senior people in the Scrum Team.
+
+### Which of the following is not one of the five basic activities used in Extreme Programming (XP)? (choose the best option)
+
+- [ ] Coding.
+- [ ] Communicating.
+- [x] Implementing.
+- [ ] Designing.
+
+### How much work must Developers do to the Product Backlog items they select for a Sprint? (choose the best option)
+
+- [ ] An equal amount of time on analysis, design, programming, testing, and documentation.
+- [x] Enough so that each Product Backlog Item they select meets the Definition of Done.
+- [ ] All development work and at least some testing.
+- [ ] As much as it can fit into the Sprint.
+
+### While developing new functionality, you find a bug that has already been delivered to the customer. What do you do? (Choose the best option)
+
+- [ ] Revise the tests so that the bug no longer appears on the bug report.
+- [ ] Fix the bug.
+- [x] Talk to the Product Owner.
+- [ ] Stub out the code that caused the bug so it no longer occurs.
+
+### During subsequent sprint planning the inputs are the Product Backlog and the Projected Capacity of the Developers. What are the additional inputs? (Choose the best two options)
+
+- [x] Definition of Done.
+- [ ] Sprint Plan.
+- [ ] Defect list from previous Sprint.
+- [x] Past performance of the Developers.
+
+### Sprints are used to deliver planned work items from the Product Backlog. Which options the Developers should not perform during the first Sprint? (choose the best two options)
+
+- [x] Develop a detailed plan for the rest of the project.
+- [ ] Deliver an increment or increments of potentially shippable functionality/product.
+- [ ] Develop and deliver/ship at least one piece of functionality in usable condition.
+- [x] Draft the complete architecture and infrastructure needed for the project.
+
+### How is the definition of done defined when multiple scrum teams are working towards a common Product Backlog? (choose the best option)
+
+- [ ] Each scrum team defines and uses its own. The differences are discussed and reconciled during a hardening Sprint.
+- [x] All Scrum Teams must have a definition of done that makes their combined work usable.
+- [ ] Each Scrum Team uses its own but must make its definition clear to all other teams so the differences are known.
+- [ ] It depends.
+
+### What are some of the advantages of smoke testing? (choose the best option)
+
+- [x] Exposes integration issues.
+- [x] Uncovers problems early.
+- [x] Provides a level of confidence in changes to software not having adverse effects.
+- [ ] It ensures that all the requirements are met.
+- [ ] The risks associated with the product/software are reduced and in turn, the loss is also reduced.
+
+### When the product owner can consider the delivery of a Product Backlog item as complete? (choose the best two options)
+
+- [ ] When developers complete all defined tasks present on the task board.
+- [ ] When the testing team reports that all acceptance criteria for the user stories planned are successfully passed for Sprint.
+- [x] When it fully adheres to the Definition of Done defined by the scrum team.
+- [x] When the item has no work remaining in order to be considered as usable.
+- [ ] At the end of the Sprint before closing it.
+
+### You are asked to refactor part of the codebase for Application X. When you are done, all Unit Tests pass with 50% Code Coverage. What can you infer from this? (choose the best option)
+
+- [ ] At least 50% of Application X functions correctly.
+- [ ] At most 50% of Application X functions correctly.
+- [ ] There are no bugs present in Application X.
+- [x] You did not break any existing Unit Tests.
+
+### The Scrum Team is self-managing & cross-functional. So they should (choose the best two options)
+
+- [x] Have the required skills to convert the selected Product Backlog items into a potentially shippable increment or increments at the end of the sprint.
+- [ ] Complete the work items as estimated within the time limit and budget.
+- [ ] Have the required skills as a team to start at least initial development even if they don’t have the required specialized skill for the work item.
+- [ ] Developers on the Scrum Team work closely with QA/testers who are not on the team.
+- [x] Have required freedom to internally decide who does what, when, and how.
+
+### When should a Sprint Goal be created? (choose the best option)
+
+- [x] During Sprint Planning.
+- [ ] At any time during the Sprint.
+- [ ] A Sprint Goal is not mandatory in Scrum.
+- [ ] It must be established before Sprint Planning in order to begin planning.
+- [ ] It should have been created in the previous Sprint during Product Backlog refinement.
+
+### What happens when all committed items (tasks/user stories) are not completed at the end of the Sprint? (choose the best option)
+
+- [ ] The Sprint duration is extended.
+- [ ] The tasks are determined to be unnecessary.
+- [x] They return to the product backlog.
+- [ ] None of the above.
