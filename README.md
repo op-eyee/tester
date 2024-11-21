@@ -349,14 +349,6 @@
 - [ ] Blameless Postmortem.
 - [x] All of the above.
 
-### While practicing Test Driven Development, what is done after the test fails?
-
-- [x] Write the minimum amount of Product code to satisfy the test.
-- [ ] Refactor the test so the code passes.
-- [ ] Run it again to make sure it really fails.
-- [ ] Implement the required functionality.
-- [ ] Meet with the Business Analyst to ensure that the test is correct.
-
 ### What tactic should a Scrum Master use to divide a group of 100 people into multiple Scrum Teams?
 
 - [ ] Create teams based on their skills across multiple layers (such as database, Ul, etc.).
@@ -1256,7 +1248,6 @@ hardening Sprint.
 
 ### What does cross-functionality mean in a Scrum Team?
 
-
 - [ ] Each Developer who has a special skill and works with all Scrum Teams of the organization is cross-functional.
 - [ ] The Development Team should collaborate with all other functional departments of the organization.
 - [x] The Development Team should have all required skills to create potentially releasable Increments without any dependency to others outside the team.
@@ -1600,13 +1591,6 @@ hardening Sprint.
 - [ ] Product Backlog Items in the Product Backlog are usually larger than the Sprint Backlog.
 - [ ] Product Backlog Items usually have the same size in both the Product Backlog and the Sprint Backlog.
 - [x] Such a comparison does not make sense.
-
-### Which is NOT true about Efferent Coupling?
-
-- [x] Classes with high efferent will affect other classes when changes are made.
-- [ ] A large Efferent Coupling can indicate that a class is unfocused and may also indicate that it is unstable since it depends on the stability of all the types to which it is coupled.
-- [ ] Classes with high Efferent Coupling will receive the effects of changes or defects in other classes.
-- [ ] It is a Code Quality metric.
 
 ### What is the instability index metric calculation formula? (Ca: Afferent Coupling, Ce: Efferent Coupling)
 
@@ -1970,13 +1954,6 @@ hardening Sprint.
 - [x] Fix the bug if it is critical or easily fixed. Otherwise, put the new bug into the Product Backlog to be prioritized and fixed in an upcoming Sprint.
 - [ ] Revise the tests so that the bug no longer appears on the bug report.
 - [ ] Stub out the code that caused the bug so it no longer occurs.
-
-### Who is responsible for the System Architecture of a Product being developed using Scrum?
-
-- [ ] The Architect chosen by the Development Team.
-- [ ] The Corporate Architect.
-- [x] The Development Team.
-- [ ] The Software Architect.
 
 ### Who must be present at the Daily Scrum meeting?
 
