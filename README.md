@@ -2442,3 +2442,125 @@ hardening Sprint.
 - [ ] The tasks are determined to be unnecessary.
 - [x] They return to the product backlog.
 - [ ] None of the above.
+
+### What is not reflected in a Sprint Burndown Chart? (choose the best option)
+
+- [ ] Total Days in Sprint.
+- [x] The number of Tasks Remaining.
+- [ ] Day of Sprint.
+- [ ] Work Hours Remaining.
+
+### In the middle of a Sprint, Developer identifies a defect. Initially, he was not sure about the cause of the defect, and hence they involved the Product Owner to discuss. After discussing, both the Product Owner and Developer agreed that the defect is indeed a clear gap in the feature being developed in their Sprint and not a new requirement. In this scenario, the defect should be (choose the best option)
+
+- [ ] Deferred to the Product Backlog since it is a new requirement.
+- [ ] Deferred since this is not a critical defect.
+- [x] Fix in the current Sprint.
+- [ ] Plan the fix for the next Sprint.
+
+### What are the properties of the Daily Scrum? (choose the best two options)
+
+- [x] It is fifteen minutes or less in duration.
+- [ ] It is facilitated by the team lead.
+- [ ] It consists of the Scrum Master asking three questions recommended by Scrum.
+- [x] Its location and time should remain constant.
+- [ ] It is held first thing in the morning.
+
+### What is a Sprint forecast? (choose the best option)
+
+- [ ] A useful tool for management to understand team performance and capacity.
+- [ ] A commitment made by the Developers to deliver a particular set of Product Backlog items.
+- [ ] Useful for the stakeholders to know what will be included in future releases.
+- [x] The amount of work the Developers believe they can complete in that Sprint.
+
+### In Scrum, each artifact contains a commitment. Commitments ensure that: (choose the best option)
+
+- [ ] They provide information that enhances transparency.
+- [ ] They provide a focus against which progress can be measured.
+- [ ] They exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.
+- [x] All of the above.
+
+### What part of the Sprint Backlog is utilized to create the Sprint Burn-down chart? (choose the best option)
+
+- [ ] The percentage of work completed by each Developer during the sprint.
+- [ ] The number of Product Backlog items completed by all the Developers during the sprint.
+- [ ] The actual time spent on each task by each developer during the sprint.
+- [x] The remaining time is required to complete each task by each developer during the sprint.
+
+### What is the characteristic of a good product backlog? (choose the best three options)
+
+- [x] Prioritized.
+- [x] Estimated.
+- [ ] Small.
+- [x] Emergent.
+- [ ] Independent.
+
+### The individual, detailed pieces of work needed to convert a product backlog item into a working software component or solution are called? (choose the best option)
+
+- [ ] User Stories.
+- [ ] Use cases.
+- [ ] Line items.
+- [x] Tasks.
+
+### What do scrum artifacts represent? (choose the best option)
+
+- [ ] Work that needs to be done.
+- [ ] Flow and feedback.
+- [x] Work or value.
+- [ ] Visual representation of the progress.
+
+### The Developers have realized that one of the planned works in the Sprint Backlog is not needed anymore. What should they do? (choose the best option)
+
+- [ ] Keep it, but inform the Product Owner.
+- [x] Remove it.
+- [ ] Ask the Product Owner to remove it.
+- [ ] Inform the Product Owner, so that he/she can cancel the Sprint.
+
+### Lean thinking is best summed up by which phrase? (choose the best option)
+
+- [ ] Maximize your work.
+- [x] Reduces waste and focuses on the essentials.
+- [ ] Knowledge comes from experience.
+- [ ] Make decisions based on what is observed.
+- [ ] Only deliver once completed.
+
+### Which of the following statement is important to maintain consistent sprint/iteration length throughout the project? (choose the best option)
+
+- [ ] Sprint length decisions should be based on sprint planning.
+- [ ] Risk and delay are important in deciding sprint length.
+- [x] Objectively measuring progress is important in deciding sprint length.
+- [ ] Sprint length can extend as long as required to complete all the work identified in Sprint Backlog.
+- [ ] All of the above.
+
+### Your team is getting ready to start a new sprint. The product owner refers to a requirements document for a large feature and begins to break it down into user stories that can be planned in small increments. What is this practice called?
+
+- [ ] Work breakdown structure.
+- [ ] Big requirements up front.
+- [x] Just-in-time refinement.
+- [ ] Waterfall approach.
+
+### Which role is accountable to conform to the Definition of Done? (choose the best option)
+
+- [ ] The Product Owner.
+- [x] The Developers.
+- [ ] The Scrum Team.
+- [ ] The Scrum Master.
+
+### True or False, Sometimes Developers can order the items in the Product Backlog.
+
+- [x] True
+- [ ] False
+
+### What are the attributes of a good unit test? (Choose all that apply)
+
+- [x] Is well factored in and as small as possible.
+- [x] Tests and asserts edge cases and different ranges of data.
+- [x] Does not have side effects.
+- [x] Asserts the results of code.
+- [x] Runs fast.
+
+### How could you benefit from having an End User Representative in your Scrum Team? (choose the best option)
+
+- [ ] End users should NOT be in the Scrum Team. Requirements are always communicated to the developers by the Product Owner, who is part of the customer team.
+- [ ] The End User Representative will be solely responsible for acceptance tests within the team.
+- [ ] The End User Representative assures that user stories are documented properly.
+- [x] The End User Representative will be able to clearly tell the developers what will work for an end user.
