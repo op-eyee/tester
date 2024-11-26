@@ -2679,4 +2679,19 @@ hardening Sprint.
 - [ ] It will impact adjustment when a component deviates outside acceptable limits.
 - [ ] It will impact adaptation as the people involved don't have transparency.
 
-### 
+### Which are Scrum Artifacts? (choose the best three options)
+
+- [ ] Product Goal.
+- [x] Increment.
+- [x] Sprint Backlog.
+- [x] Product Backlog.
+- [ ] Sprint Goal.
+- [ ] The list of impediments.
+
+### What attributes are optional for a Product Backlog Item? (choose the best two options)
+
+- [ ] Order.
+- [x] Dependencies.
+- [ ] Description.
+- [ ] Estimate.
+- [x] Test descriptions that will prove Product Backlog Item completeness when "Done".
