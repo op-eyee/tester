@@ -1352,7 +1352,7 @@ hardening Sprint.
 
 - [x] Through it internal structure of code is altered.
 - [x] Its results are improved maintainability, code readability and reduced complexity.
-- [ ] There should be special and distinct Sprints called “Refactoring Sprint” to do Refactoring with focus every a few Sprints.
+- [ ] There should be special and distinct Sprints called "Refactoring Sprint" to do Refactoring with focus every a few Sprints.
 - [ ] Through it external behavior of code is altered.
 
 ### When the Product Owner can see the Development Team work?
@@ -1543,14 +1543,14 @@ hardening Sprint.
 - [ ] At the end of each release.
 - [x] From the beginning of the project.
 - [ ] At the end each Sprint.
-- [ ] In special Sprints called “Test Sprint”.
+- [ ] In special Sprints called "Test Sprint".
 
 ### Which language is usually used in BDD?
 
-- [x] Ubiquitous language.
+- [ ] Ubiquitous language.
 - [ ] Tongue language.
 - [ ] Technical language.
-- [ ] Native language.
+- [x] Native language.
 
 ### Which of the followings are characteristics of a good bug report? (pick all that apply)
 
@@ -2223,7 +2223,7 @@ hardening Sprint.
 - [ ] It is a complete list of all work to be done in a Sprint.
 - [ ] Every item has a designated owner.
 - [ ] Each task is estimated in hours.
-- [x] It is the developers’ plan for the Sprint.
+- [x] It is the developers' plan for the Sprint.
 - [ ] It is ordered by the Product Owner.
 
 ### True or False, The purpose of a Sprint is to produce done increment(s) of product.
@@ -2297,7 +2297,7 @@ hardening Sprint.
 - [x] Productivity is likely to decrease.
 - [ ] Productivity is likely to increase.
 - [ ] Productivity is likely to stay the same.
-- [ ] Productivity can’t be predicted.
+- [ ] Productivity can't be predicted.
 
 ### When can Developers cancel a Sprint? (choose the best option)
 
@@ -2424,7 +2424,7 @@ hardening Sprint.
 
 - [x] Have the required skills to convert the selected Product Backlog items into a potentially shippable increment or increments at the end of the sprint.
 - [ ] Complete the work items as estimated within the time limit and budget.
-- [ ] Have the required skills as a team to start at least initial development even if they don’t have the required specialized skill for the work item.
+- [ ] Have the required skills as a team to start at least initial development even if they don't have the required specialized skill for the work item.
 - [ ] Developers on the Scrum Team work closely with QA/testers who are not on the team.
 - [x] Have required freedom to internally decide who does what, when, and how.
 
@@ -2564,3 +2564,119 @@ hardening Sprint.
 - [ ] The End User Representative will be solely responsible for acceptance tests within the team.
 - [ ] The End User Representative assures that user stories are documented properly.
 - [x] The End User Representative will be able to clearly tell the developers what will work for an end user.
+
+### What is the purpose of the Sprint Review meeting? (Choose the best option)
+
+- [ ] To make a demonstration of the Product where the entire organization can attend and give feedback.
+- [ ] To allow the Scrum Team to inspect itself and create a plan for improvements.
+- [x] To inspect the Sprint outcome and figure out what to do next.
+- [ ] To evaluate the performance of the Scum Team and to take corrective measures if necessary.
+
+### Which principle is included in SOLID? (Choose all that apply)
+
+- [x] Interface Segregation Principle.
+- [x] Open-Closed Principle.
+- [x] Liskov Substitution Principle.
+- [ ] Dual Interface Principle.
+- [x] Single Responsibility Principle.
+
+### What is an effective way to prevent technical debt? (Choose all the options that apply)
+
+- [x] Code reviews.
+- [x] Static code analysis.
+- [x] Refactor technical debt away.
+- [x] Improve your definition of done.
+- [x] Coding standards.
+
+### When forming multiple Scrum Teams, what two things are the most important factors to consider? (choose the best two options)
+
+- [x] Having each team be the proper size.
+- [x] Having an effective mixture of skill in each team to avoid dependencies.
+- [ ] Having enough skills for the technical layer designated to each team.
+- [ ] Having a mixture of senior and junior developers on each team.
+
+### Developers pull the product backlog into the sprint and work on it. However, it does not meet their definition of "done" by the end of the sprint. What three things should happen with the incomplete product backlog item? (choose the best three options)
+
+- [x] Re-estimate it and return it to the product backlog for the Product Owner to decide what to do with it.
+- [ ] Review the item, add the "done" part of the estimate to the velocity, and create a story for the remaining work.
+- [x] Do not show it in the sprint review.
+- [ ] If the stakeholder agrees, the Product Owner can accept it anyhow and release it to the user.
+- [x] Do not include the item in the increment this sprint.
+
+### Negative value can be in the form of _________(Choose all that apply)
+
+- [x] New defects.
+- [x] Rendering a feature no longer usable.
+- [x] Decreasing system performance.
+- [x] Increasing system downtime.
+- [x] A clunkier user interface.
+
+### True or False, During each Sprint Retrospective, the Scrum Team reviews the Definition of Done and changes it if necessary.
+
+- [x] True.
+- [ ] False.
+
+### Sprint Review can be considered?  (choose the best option)
+
+- [x] A working session and the Scrum Team should avoid limiting it to a presentation.
+- [ ] A formal meeting with the stakeholders to show the work done during the Sprint.
+- [ ] An informal meeting to reprioritize the sprint backlog.
+- [ ] An informal meeting to reprioritize product backlog.
+
+### A non-exhaustive set of tests that aim at ensuring that the most important functions work is called? (choose the best option)
+
+- [ ] Regression Testing
+- [x] Smoke Testing
+- [ ] Functional Testing
+- [ ] Unit Testing
+
+### What is the result of a Sprint Review event? (choose the best option)
+
+- [ ] Acceptance (or rejection) of all Product Backlog Items.
+- [x] A revised Product Backlog that defines the probable Product Backlog items for the future Sprint.
+- [ ] The Increment has been demonstrated to Stakeholders.
+- [ ] A Common understanding of progress toward the Sprint Goal and how progress is trending toward completing the work in the Sprint Backlog.
+- [ ] Incomplete Product Backlog Items have been reviewed and returned to the top of the Product Backlog.
+
+### What are Product Backlog features? (choose the best three options)
+
+- [x] It is never complete.
+- [x] It is dynamic.
+- [x] As long as a product exists, its Product Backlog also exists.
+- [ ] After the final version of a product is implemented Product Backlog is deemed as complete.
+- [ ] A Product Backlog could be marked as complete when it contains no other items to include in the next Sprint.
+
+### The underlying idea is that developers are aware of and consider implications on operations in daily work and visa versa (choose the best option)
+
+- [ ] Emergence.
+- [x] DevOps.
+- [ ] DRY (don't repeat yourself).
+- [ ] Cyclomatic Complexity.
+
+### Select all the key inputs to the Sprint Planning meeting. (choose the best four options)
+
+- [ ] Feedback from the Key Stakeholders.
+- [x] The Product Backlog.
+- [x] The latest product Increment.
+- [x] The projected capacity of developers during the Sprint.
+- [ ] Feedback from the Organization's Senior Management.
+- [x] Past performance of developers.
+- [ ] The Sprint Goal
+
+### What is the best definition of the phrase "development" in the context of Scrum? (choose the best option)
+
+- [ ] Development of an operational environment for the Product.
+- [ ] Product development, it's releasing and sustaining at a constant pace.
+- [x] Complex work that can include all the suggested options and even more than required to achieve sprint goals.
+- [ ] Software and hardware development.
+- [ ] Research and identify viable markets, technologies, and Product capabilities.
+
+### Transparency is a key element for empirical process control. Why does Scrum strongly encourage transparency? (choose the best option)
+
+- [x] It will impact the optimization of predictability and controlling risk.
+- [ ] Management can't track what the team is delivering on each increment.
+- [ ] Undesirable variances can't be detected.
+- [ ] It will impact adjustment when a component deviates outside acceptable limits.
+- [ ] It will impact adaptation as the people involved don't have transparency.
+
+### 
