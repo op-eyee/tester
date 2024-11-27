@@ -2695,3 +2695,70 @@ hardening Sprint.
 - [ ] Description.
 - [ ] Estimate.
 - [x] Test descriptions that will prove Product Backlog Item completeness when "Done".
+
+### Which questions does the Scrum Guide recommend all Developers should answer during the Daily Scrum? (choose the best option)
+
+- [ ] What work did I do yesterday to help the team achieve its goal?
+- [ ] What work am I going to do today to help the team achieve its goal?
+- [ ] What impediments are in my way or in the way of the team?
+- [ ] How many hours did I spend on the project yesterday?
+- [ ] All of the above.
+- [x] None of the above.
+
+### Which test results are used to decide if a build is stable enough to proceed with further testing. (choose the best option)
+
+- [ ] Regression Testing.
+- [x] Smoke Testing.
+- [ ] Functional Testing.
+- [ ] Unit Testing.
+
+### A Scrum Team has the following condition under the definition of "Done": "All the code to be reviewed and approved by Industry Coding Standard Organization." This Industry Coding Standard Organization is a third-party Subject Matter Expert outside Scrum Team. (choose the best option)
+
+- [x] The definition of "Done" is less effective, because it contains conditions that are not completed within the influence of the Scrum Team.
+- [ ] The definition of "Done" is more effective, because it ensures that required industry standards are met.
+- [ ] The definition of "Done" can contain anything as decided by the Product Owner.
+- [ ] The definition of "Done" can contain anything as decided by the scrum team.
+
+### What enhances the transparency of an increment? (Choose the best option)
+
+- [x] Doing all work needed to meet the definition of "Done".
+- [ ] Reporting Sprint progress to the stakeholders daily.
+- [ ] Keeping track of and estimating all undone work to be completed in a separate Sprint.
+- [ ] Updating Sprint tasks properly in the electronic tracking tool.
+
+### A scrum team needs to develop a web application in increments. Some of the sprints have sprint goals like this: 'Develop data layer for functionality A'. What is your inference? (choose the best option)
+
+- [ ] The scrum team follows the horizontal decomposition of product backlog items. this is recommended.
+- [ ] The scrum team follows the vertical decomposition of product backlog items. this is recommended.
+- [x] The scrum team follows the horizontal decomposition of product backlog items. this is not recommended.
+- [ ] The scrum team follows the vertical decomposition of product backlog items. this is not recommended.
+
+### What are the pre-conditions that must be fulfilled in order to allow Sprint Planning to begin? (choose the best option)
+
+- [ ] A fully refined Product Backlog & a clear Sprint Goal.
+- [ ] Formal budget & schedule approval to conduct another Sprint.
+- [ ] A clear but negotiable business objective for Sprint.
+- [ ] Enough Product Backlog items in ready condition to be worked during the sprint.
+- [x] There are no such pre-conditions.
+
+### A software delivery practice in which the release process is fully automated in order to have changes promoted to the production environment, No human intervention is called. (choose the best option)
+
+- [x] Continuous Deployment.
+- [ ] Continuous Delivery.
+- [ ] DRY (Don't repeat yourself).
+- [ ] Definition of "done".
+
+### What are the typical roles when practicing Pair Programming? (choose the best option)
+
+- [ ] Product Owner and Developer.
+- [ ] Business Analyst and Developer.
+- [ ] Tester and Developer.
+- [x] Driver and Navigator.
+- [ ] Frontend and Backend.
+
+### Which of the following are advantages of Continuous Integration? (choose the best two options)
+
+- [ ] The readability of code is improved.
+- [x] Know immediately how a change affected the Product.
+- [ ] The feature branch is generally kept in a buildable.
+- [x] Reduce effort and risk when integrating changes.
