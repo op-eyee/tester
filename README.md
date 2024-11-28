@@ -2762,3 +2762,120 @@ hardening Sprint.
 - [x] Know immediately how a change affected the Product.
 - [ ] The feature branch is generally kept in a buildable.
 - [x] Reduce effort and risk when integrating changes.
+
+### What are the different types of code coverage? (choose the best option)
+
+- [ ] Condition.
+- [ ] Statement.
+- [ ] Path.
+- [ ] Function.
+- [x] All of the above.
+
+### What are the advantages of Behavior Driven Development (BDD)? (choose the best option)
+
+- [ ] BDD ensures a single source of truth by merging specification and test documentation into a single document.
+- [ ] BDD can derive concrete examples in a collaborative manner from the acceptance criteria defined for each story.
+- [ ] BDD brings businesses, developers, and testers together with a common language.
+- [ ] BDD acts as living documentation.
+- [x] All of the above.
+
+### The Scrum Team consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. How Scrum Team guided during a Sprint? (choose the best option)
+
+- [ ] By the Scrum Master who ensures that they create high-value products.
+- [x] By their collective knowledge and experience.
+- [ ] By the Product Owner who attends the Scrum Events to provide feedback.
+- [ ] By project documentation and the Scrum processes.
+
+### True or False, Ten-minute builds result in faster client feedback loops.
+
+- [x] True.
+- [ ] False.
+
+### Which three phrases best describe the purpose of a definition of "Done"? (choose the best three options)
+
+- [ ] It controls whether the developers have performed their tasks.
+- [ ] It provides a template for elements that need to be included in the technical documentation.
+- [x] It creates transparency over the work inspected at the Sprint Review.
+- [ ] It tracks the percent completeness of a Product Backlog item.
+- [x] It guides the Developers in creating a forecast at the Sprint Planning.
+- [x] It defines what it takes for an Increment to be ready for release.
+
+### For the purpose of transparency, when does Scrum say a new increment of working software must be available?
+
+- [ ] Every 3 Sprints.
+- [ ] Before the release of Sprint.
+- [x] At the end or prior to the end of the Sprint.
+- [ ] When the Product Owner asks to create one.
+- [ ] After the acceptance testing phase.
+
+### What are the two intended outcomes of the Daily Scrum? (choose the best two options)
+
+- [ ] A status report for the upper management indicating what each individual has done will be doing, and what is impeding him/her.
+- [ ] An updated Scrum board to make Sprint's progress transparent for the stakeholders.
+- [x] A shared understanding of the most important work to be undertaken next to achieve the best possible progress toward the Sprint goal.
+- [x] New impediments for the Scrum Master to take care of.
+- [ ] An update of completed tasks and of the remaining work so the Scrum Master can plan the next day.
+
+### Which of the following is NOT a clean code principle/best practice? (choose the best option)
+
+- [ ] Common closure principle.
+- [ ] Single responsibility principle.
+- [x] High coupling and low cohesion.
+- [ ] Decouple construction from runtime.
+
+### A holistic view of the management of software applications and systems, accounting for all stages of the existence of a software product is called? (choose the best option)
+
+- [ ] Engineering Standards.
+- [x] Application Lifecycle Management (ALM)
+- [ ] Test-Driven Development (TDD)
+- [ ] Acceptance Test-Driven Development (ATDD)
+
+### True or False, Functional testing can be implemented by a team of testers, independent of the developers.
+
+- [x] True
+- [ ] False
+
+### The Sprint Planning meetings are always going beyond the time limit for a Scrum Team. What could be the likely causes? (choose the best two options)
+
+- [ ] The Scrum Master does not moderate and control the participants effectively.
+- [x] The Scrum Team didn't invest enough in Backlog Refinement before coming to the sprint planning.
+- [ ] The Product Backlog size is huge and one Product Owner is not able to manage it.
+- [x] The Scrum Team is trying to get a perfect and detailed Sprint plan.
+
+### What are the benefits of Empiricism? (choose the best three options)
+
+- [ ] Frequent opportunities to get information using which uncertainty can be eliminated.
+- [x] Frequent opportunities to discuss different possibilities.
+- [ ] Frequent opportunities adjust scrum team composition without impacting productivity.
+- [x] Frequent opportunities to make informed decisions, thus reducing risk.
+- [x] Frequent opportunities for continuous improvement, and the ability to adapt based on the results of the inspection.
+
+### What are the ways that architecture and infrastructure are handled in Scrum? (choose the best two options)
+
+- [x] Added to the Product Backlog and addressed in early Sprints via business functionality.
+- [x] Goes hand in hand & implemented with the functional development of the product.
+- [ ] It is part of the architectural team & included in the architectural runway.
+- [ ] Architecture and infrastructure must be discussed, determined, and documented during sprint 0 & should be ready before actual development.
+- [ ] Have open communication with the developers so that they will reach out to the system architect when needed.
+
+### The Developers are required to deliver a done increment by the end of a Sprint. Select two statements that explain what "done" means. (Choose the best two options)
+
+- [x] No work left from the definition of "Done".
+- [ ] Whatever the Product Owner defines as quality.Ready for integration.
+- [x] All work to create software that is ready to be released to end users.
+- [ ] All work the Developers are willing to do.
+- [ ] Ready for integration.
+
+### Which of the following can increase code testability? (Choose the best option)
+
+- [x] SOLID principles(Single responsibility, Open-closed, Liskov substitution, Interface Segregation, and Dependency inversion)
+- [ ] Continuous Deployment.
+- [ ] LOC (Lines of Code)
+- [ ] CI/CD (Continuous Integration / Continuous Delivery)
+
+### Which stage is the best time for running the performance test? (Choose the best option)
+
+- [ ] When the tester of the Team ordered.
+- [ ] Before running Acceptance Tests.
+- [ ] After each change in source control.
+- [x] Right before deploying the Increment to production.
