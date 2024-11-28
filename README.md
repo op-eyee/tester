@@ -547,11 +547,11 @@
 ### What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint? (choose the best answer)
 
 - [x] There are no such activities. The next Sprint starts immediately after the current Sprint.
-- [ ] Work with the Quality Assurance departments on the Increment of the current Sprint.
+- [ ] Work with the Quality Assurance departments on the Increment of the current Sprint.
 - [ ] Refine the Product Backlog.
 - [ ] Update the project plan with Stakeholders.
 
-### You are the Scrum Master on a newly formed Scrum Team. Which two of the following activities would probably help the team in starting up? (choose the best two answers)
+### You are the Scrum Master on a newly formed Scrum Team. Which two of the following activities would probably help the team in starting up? (choose the best two answers)
 
 - [ ] Ensure the Scrum Team members have compatible personalities.
 - [ ] Introduce a bonus system for the top performers in the team.
@@ -559,10 +559,10 @@
 - [ ] Have the development managers for each Development Team member introduce their direct reports and go over their responsibilities on the Scrum Team.
 - [x] Ask the Product Owner to discuss the Product, its vision, history, goals, and context, as well as answer questions.
 
-### Which best describes the Product Backlog? (choose the best answer)
+### Which best describes the Product Backlog? (choose the best answer)
 
 - [ ] It contains all foreseeable tasks and requirements from which the Scrum team can develop and maintain a complete project plan.
-- [x] It is allowed to grow and change as more is learned about the Product and its customers.
+- [x] It is allowed to grow and change as more is learned about the Product and its customers.
 - [ ] It is baselined to follow change management processes.
 - [ ] It provides just enough information to enable a Scrum team to start the design phase of a Product.
 
@@ -594,8 +594,8 @@
 - [ ] The Development Team inviting external people to the Sprint Planning to ask them how to turn a Product Backlog Item into an Increment via a complete and detailed Sprint Backlog.
 - [ ] The Development Team members are working within the boundaries of their functional description and nicely handing off work from analyst to Developer to Tester to integration.
 - [ ] The Product Owner doesn't need to be at Sprint Retrospectives.
-- [ ] Stakeholders walking in at the Daily Scrum to check progress and work with the Scrum Master to optimize the functional scope for the Sprint.
-- [x] Development Team members collaboratively selecting their own work during the Sprint.
+- [ ] Stakeholders walking in at the Daily Scrum to check progress and work with the Scrum Master to optimize the functional scope for the Sprint.
+- [x] Development Team members collaboratively selecting their own work during the Sprint.
 - [ ] The Scrum Master is no longer needed.
 - [x] The Development Team has all the skills needed to create a releasable Increment.
 - [x] The Development Team creating their own Sprint Backlog, reflecting all work that is part of the Definition of Done.
@@ -603,16 +603,16 @@
 ### What is the purpose of a Sprint Review? (choose the best answer)
 
 - [ ] To take time to judge the validity of the project.
-- [x] To inspect the Product Increment with the Stakeholders and collect feedback on next steps.
+- [x] To inspect the Product Increment with the Stakeholders and collect feedback on next steps.
 - [ ] To review the Scrum Team's activities and processes during the Sprint.
 - [ ] To build team spirit.
 
-### True or False: The Product Owner makes sure the team selects enough from the Product Backlog for a Sprint to satisfy the Stakeholders.
+### True or False: The Product Owner makes sure the team selects enough from the Product Backlog for a Sprint to satisfy the Stakeholders.
 
 - [ ] True.
 - [x] False.
 
-### Which statement best describes the Sprint Backlog as outcome of the Sprint Planning? (choose the best answer)
+### Which statement best describes the Sprint Backlog as outcome of the Sprint Planning? (choose the best answer)
 
 - [x] It is the Development Team's plan for the Sprint.
 - [ ] Every item has a designated owner.
@@ -620,9 +620,9 @@
 - [ ] Each task is estimated in hours.
 - [ ] It is ordered by the Product Owner.
 
-### A Development Team selects a set of Product Backlog Items for a Sprint Backlog with the intent to get the selected items "Done" by the end of the Sprint. Which three phrases best describe the purpose of a Definition of Done? (choose the best three answers)
+### A Development Team selects a set of Product Backlog Items for a Sprint Backlog with the intent to get the selected items "Done" by the end of the Sprint. Which three phrases best describe the purpose of a Definition of Done? (choose the best three answers)
 
-- [ ] It provides a template for elements that need to be included in the technical documentation.
+- [ ] It provides a template for elements that need to be included in the technical documentation.
 - [x] It guides the Development Team in creating a forecast at the Sprint Planning.
 - [ ] It controls whether the Developers have performed their tasks.
 - [x] It creates transparency over the work inspected at the Sprint Review.
@@ -636,9 +636,9 @@
 - [ ] The Release Plan.
 - [ ] The Sprint Backlog.
 
-### The Product Owner determines how many Product Backlog Items the Development Team selects for a Sprint. (choose the best answer)
+### The Product Owner determines how many Product Backlog Items the Development Team selects for a Sprint. (choose the best answer)
 
-- [ ] True, but only after confirmation by the resource manager that the Team has enough capacity.
+- [ ] True, but only after confirmation by the resource manager that the Team has enough capacity.
 - [ ] False, capacity and commitment are the Project Manager's responsibility.
 - [ ] False, the Scrum Master does that.
 - [ ] True.
@@ -661,15 +661,15 @@
 
 ### Which two of the following are true about the Scrum Master role? (choose the best two answers)
 
-- [x] The Scrum Master teaches the Development Team to keep the Scrum meetings to their time-box.
+- [x] The Scrum Master teaches the Development Team to keep the Scrum meetings to their time-box.
 - [ ] The Scrum Master is responsible for updating the Sprint Burndown.
-- [ ] The Scrum Master assigns tasks to Development Team members when they need work.
+- [ ] The Scrum Master assigns tasks to Development Team members when they need work.
 - [x] The Scrum Master helps those outside the team interact with the Scrum Team.
 - [ ] At the Sprint Review, the Scrum Master identifies what has been "Done" and what has not been "Done".
 
 ### Which two of the following are appropriate topics for discussion during a Sprint Retrospective? (choose the best two answers)
 
-- [ ] Documenting Acceptance Criteria for items in the next Sprint. 
+- [ ] Documenting Acceptance Criteria for items in the next Sprint.
 - [ ] The order of items in the Product Backlog.
 - [x] Identifying high priority process improvements for the next Sprint.
 - [x] How the team collaborates.
@@ -686,7 +686,7 @@
 - [ ] Prior to starting a new Sprint.
 - [x] During the Sprint Retrospective.
 
-### The Product Owner is not collaborating with the Development Team during the Sprint. What are two valuable actions for a Scrum Master to take? (choose the best two answers)
+### The Product Owner is not collaborating with the Development Team during the Sprint. What are two valuable actions for a Scrum Master to take? (choose the best two answers)
 
 - [ ] Nominate a proxy Product Owner.
 - [x] Coach the Product Owner in the values of Scrum and incremental delivery.
@@ -694,47 +694,47 @@
 - [ ] Inform the Product Owner's functional manager.
 - [x] Bring up the problem in the Sprint Retrospective.
 
-### A Scrum Master is working with a Development Team that has members in different physical locations. The Development Team meets in a variety of meeting rooms and has much to do logistically (for example, set up conference calls) before the Daily Scrum. What action should the Scrum Master take? (choose the best answer)
+### A Scrum Master is working with a Development Team that has members in different physical locations. The Development Team meets in a variety of meeting rooms and has much to do logistically (for example, set up conference calls) before the Daily Scrum. What action should the Scrum Master take? (choose the best answer)
 
-- [ ] Ask the Development Team members to alternate who is responsible for meeting setup.
+- [ ] Ask the Development Team members to alternate who is responsible for meeting setup.
 - [ ] Set up the meeting and tell the Development Team that is how it will be done.
 - [ ] Inform Management and ask them to solve it.
 - [x] Allow the Development Team to self-manage and determine for itself what to do.
 
-### Five new Scrum Teams have been created to build one Product. A few of the Developers on one of the Development Teams ask the Scrum Master how to coordinate their work with the other teams. What should the Scrum Master do?
+### Five new Scrum Teams have been created to build one Product. A few of the Developers on one of the Development Teams ask the Scrum Master how to coordinate their work with the other teams. What should the Scrum Master do?
 
-- [ ] Teach the Product Owner to work with the Lead Developers on ordering Product Backlog in a way to avoid too much technical and development overlap during a Sprint.
+- [ ] Teach the Product Owner to work with the Lead Developers on ordering Product Backlog in a way to avoid too much technical and development overlap during a Sprint.
 - [ ] Collect the Sprint tasks from the teams at the end of their Sprint Planning and merge that into a consolidated plan for the entire Sprint.
-- [x] Teach them that it is their responsibility to work with the other teams to create an integrated Increment.
+- [x] Teach them that it is their responsibility to work with the other teams to create an integrated Increment.
 - [ ] Visit the five teams each day to inspect that their Sprint Backlogs are aligned.
 
-### True or False: Scrum is a methodology that tells in detail how to build Software incrementally.
+### True or False: Scrum is a methodology that tells in detail how to build Software incrementally.
 
 - [ ] True.
 - [x] False.
 
-### In the Sprint Planning meeting, the Product Owner and the Development Team were unable to reach a clear understanding about the highest order Product Backlog Items. Because of this, the Development Team couldn't figure out how many Product Backlog Items it could forecast for the upcoming Sprint. They were able to agree on a Sprint Goal, however. Which of the following two actions should the Scrum Master support? (choose the best two answers)
+### In the Sprint Planning meeting, the Product Owner and the Development Team were unable to reach a clear understanding about the highest order Product Backlog Items. Because of this, the Development Team couldn't figure out how many Product Backlog Items it could forecast for the upcoming Sprint. They were able to agree on a Sprint Goal, however. Which of the following two actions should the Scrum Master support? (choose the best two answers)
 
-- [ ] Ask everyone to take as much time as needed to analyze the Product Backlog first, and then reconvene another Sprint Planning meeting.
-- [ ] Cancel the Sprint. Send the entire team to an advanced Scrum training and then start a new Sprint.
-- [x] Forecast the most likely Product Backlog Items to meet the goal and create a Sprint Backlog based on a likely initial design and plan. Once the time-box for the Sprint Planning meeting is over, start the Sprint and continue to analyze, decompose, and create additional functionality during the Sprint.
-- [ ] Continue the Sprint Planning meeting past its time-box until an adequate number of Product Backlog Items are well enough understood for the Development Team to make a complete forecast. Then start the Sprint.
-- [x] Discuss in the upcoming Sprint Retrospective why this happened and what changes will make it less likely to recur.
+- [ ] Ask everyone to take as much time as needed to analyze the Product Backlog first, and then reconvene another Sprint Planning meeting.
+- [ ] Cancel the Sprint. Send the entire team to an advanced Scrum training and then start a new Sprint.
+- [x] Forecast the most likely Product Backlog Items to meet the goal and create a Sprint Backlog based on a likely initial design and plan. Once the time-box for the Sprint Planning meeting is over, start the Sprint and continue to analyze, decompose, and create additional functionality during the Sprint.
+- [ ] Continue the Sprint Planning meeting past its time-box until an adequate number of Product Backlog Items are well enough understood for the Development Team to make a complete forecast. Then start the Sprint.
+- [x] Discuss in the upcoming Sprint Retrospective why this happened and what changes will make it less likely to recur.
 
-### A member of the Development Team takes the Scrum Master aside to express his concerns about data security issues. What should the Scrum Master do? (choose the best answer)
+### A member of the Development Team takes the Scrum Master aside to express his concerns about data security issues. What should the Scrum Master do? (choose the best answer)
 
 - [ ] Create a Product Backlog Item for security.
 - [x] Ask the person to share the issue with the team as soon as possible.
 - [ ] Add security to the Definition of Done.
-- [ ] Tell the Product Owner to stop further development of features until the issues are fixed.
+- [ ] Tell the Product Owner to stop further development of features until the issues are fixed.
 - [ ] Go check with the Testers.
 
 ### What are two ways that architecture and infrastructure are handled in Scrum? (choose the best two answers)
 
 - [x] They are implemented along with functional development of the Product.
 - [ ] They are built by a separate team through the creation of an architectural runway.
-- [x] They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality, no matter how small.
-- [ ] They are discussed, determined, and documented before the actual feature development Sprints.
+- [x] They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality, no matter how small.
+- [ ] They are discussed, determined, and documented before the actual feature development Sprints.
 
 ### What are three ways Scrum promotes self-organization? (choose three)
 
@@ -2791,15 +2791,6 @@ hardening Sprint.
 - [x] True.
 - [ ] False.
 
-### Which three phrases best describe the purpose of a definition of "Done"? (choose the best three options)
-
-- [ ] It controls whether the developers have performed their tasks.
-- [ ] It provides a template for elements that need to be included in the technical documentation.
-- [x] It creates transparency over the work inspected at the Sprint Review.
-- [ ] It tracks the percent completeness of a Product Backlog item.
-- [x] It guides the Developers in creating a forecast at the Sprint Planning.
-- [x] It defines what it takes for an Increment to be ready for release.
-
 ### For the purpose of transparency, when does Scrum say a new increment of working software must be available?
 
 - [ ] Every 3 Sprints.
@@ -2879,3 +2870,11 @@ hardening Sprint.
 - [ ] Before running Acceptance Tests.
 - [ ] After each change in source control.
 - [x] Right before deploying the Increment to production.
+
+### If multiple teams are working on the same product and it is taking a long time to debug integration issues, what engineering practice would be the best solution? (choose the best option)
+
+- [ ] Collective Code Ownership.
+- [ ] Test-Driven Development.
+- [x] Continuous Integration.
+- [ ] Version Control.
+- [ ] Pair Programming.
